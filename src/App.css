@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, #f8f9fa, #e6e9ef);
+    color: #37474F;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1); 
+    border-bottom: 3px solid #d6d6d6; 
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); 
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; 
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); 
+    border-color: #6c63ff; 
+}
+
+button {
+    background: linear-gradient(90deg, #6c63ff, #5c54d4); 
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    margin-top: 50px;
+    color: #555;
+    font-size: 14px;
+    padding: 20px;
+    background: linear-gradient(90deg, #f8f9fa, #e6e9ef); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./4k white bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
